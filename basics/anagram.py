@@ -12,4 +12,4 @@ def anagram(s):
 				print pos, ans
 #		return ans
 
-print(anagram("abc"))
+print(anagram("abca"))
