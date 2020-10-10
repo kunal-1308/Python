@@ -1,4 +1,4 @@
 #!/usr/bin/python
 
-name = input("Enter Name:")
+name = input("Enter Your Good Name:")
 print("Hello "+name)
