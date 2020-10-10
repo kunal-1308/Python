@@ -32,4 +32,4 @@ def VariableDictionaryArgumentsDemo(n1,n2,a,b,*args, **kwargs):
     for x in kwargs:
         print(x, kwargs[x])
 
-VariableDictionaryArgumentsDemo(1,2,20,10,1,2,3,4, name="Jeetendra", surname="Bhattad", age="29")
+VariableDictionaryArgumentsDemo(1,2,20,10,1,2,3,4, name="Kunal", surname="Bhapkar", age="29")
