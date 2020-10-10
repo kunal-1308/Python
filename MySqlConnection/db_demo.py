@@ -4,7 +4,7 @@ import MySQLdb as mdb
 import sys
 con = None
 try:
-    con = mdb.connect('localhost', 'jeetu', '12345', 'testdb');
+    con = mdb.connect('localhost', 'kunal', '12345', 'testdb');
 
     cur = con.cursor()
     cur.execute("SELECT VERSION()")
